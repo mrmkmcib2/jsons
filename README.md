@@ -13,7 +13,7 @@
 }
 ```
 * Открыть карточку клиента с вкладкой аналитика 
-[OpenClientCardAnalyticsTab](https://github.com/mrmkmcib2/jsons/blob/master/OpenClientCardAnalyticsTab.json)
+([OpenClientCardAnalyticsTab](https://github.com/mrmkmcib2/jsons/blob/master/OpenClientCardAnalyticsTab.json))
 
 Вызывается при нажатии на строку холдинга или юр.лица на всех экранах со списком холдингов и юр.лиц.
 currentUrl - часть url текущей страницы после # (включая его). Нужен для реализации кнопки 'Назад' на той странице, куда произойдет переход.
@@ -33,7 +33,7 @@ clientId - идентификатор холдинга или идентифик
 }
 ```
 * Показать строку поиска
-[GlobalClientSearch](https://github.com/mrmkmcib2/jsons/blob/master/GlobalClientSearch.json)
+([GlobalClientSearch](https://github.com/mrmkmcib2/jsons/blob/master/GlobalClientSearch.json))
 
 Вызывается, когда инпут поиска ловит фокус. На всех экранах, где присутствует инпут поиска.
 ```
