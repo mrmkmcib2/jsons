@@ -1,5 +1,5 @@
-}
-	type: 'OpenClientCardAnalyticsTab', // открыть карточку клиента с вкладкой аналитика
+{
+	"type": "OpenClientCardAnalyticsTab",
 	payload: {
 		route:{
 			type: '<holding || le_ent>',
