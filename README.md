@@ -1,5 +1,7 @@
 * Сообщение об ошибке, произошедшей на странице 
-[ThrowError](https://github.com/mrmkmcib2/jsons/blob/master/ThrowError.json)
+([ThrowError](https://github.com/mrmkmcib2/jsons/blob/master/ThrowError.json))
+
+Вызывается при возникновении ошибки. Список типов и кодов возможных ошибок будет оговариваться отдельно. Пока можно пробрасывать сетевые ошибки с errorType='httpResponseError', code='<http код ошибки>', text='<(необязательно) текст ошибки>'
 ```
 {
 	type: 'ThrowError',
