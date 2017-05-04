@@ -1,7 +1,7 @@
 {
 	"type": "ThrowError",
 	"payload": {
-		"errorType": "<httpResponseError || businessError || ...>"
+		"errorType": "<httpResponseError || businessError || ...>",
 		"code": "<Error Code>",
 		"text": "<Some Information about error>"
 	}
