@@ -1,0 +1,8 @@
+{
+	type: 'ShowError',
+	payload: {
+		errorType: '<httpResponseError || businessError || ...>',
+		code: '<Error Code>',
+		text: '<Some Information about error>'
+	}
+}
