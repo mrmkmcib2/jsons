@@ -16,6 +16,7 @@
 {
 	type: 'OpenClientCardAnalyticsTab',
 	payload: {
+		currentUrl: '<current url to return back to it, e.g. #/kpi/1>'
 		route:{
 			type: '<holding || le_ent>',
 			clientId: '<Client (holding or le_ent) identifier>',
