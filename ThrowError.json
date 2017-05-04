@@ -1,5 +1,5 @@
 {
-	type: 'ShowError',
+	type: 'ThrowError',
 	payload: {
 		errorType: '<httpResponseError || businessError || ...>',
 		code: '<Error Code>',
