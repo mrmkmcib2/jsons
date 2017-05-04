@@ -1,7 +1,8 @@
-## Сообщение об ошибке, произошедшей на странице
+* Сообщение об ошибке, произошедшей на странице 
+[ThrowError](https://github.com/mrmkmcib2/jsons/blob/master/ThrowError.json)
 ```
 {
-	type: 'ShowError',
+	type: 'ThrowError',
 	payload: {
 		errorType: '<httpResponseError || businessError || ...>',
 		code: '<Error Code>',
@@ -9,7 +10,8 @@
 	}
 }
 ```
-## Открыть карточку клиента с вкладкой аналитика
+* Открыть карточку клиента с вкладкой аналитика 
+[GlobalClientSearch](https://github.com/mrmkmcib2/jsons/blob/master/OpenClientCardAnalyticsTab.json)
 ```
 {
 	type: 'OpenClientCardAnalyticsTab',
@@ -23,7 +25,8 @@
 	}	
 }
 ```
-## Показать строку поиска
+* Показать строку поиска
+[GlobalClientSearch](https://github.com/mrmkmcib2/jsons/blob/master/GlobalClientSearch.json)
 ```
 {
 	type: 'GlobalClientSearch'
