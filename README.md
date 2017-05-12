@@ -28,7 +28,7 @@ clientId - идентификатор холдинга или идентифик
 			clientId: '<Client (holding or le_ent) identifier>',
 			kpiId: '<Number of kpiId>',
 			all: '<all || empty row>',
-			url: '<=href>'
+			url: '<anchor of the next page, equals to href of link>'
 		}
 	}	
 }
