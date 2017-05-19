@@ -1,0 +1,8 @@
+{
+  "type": "OpenClientCardProductsTab",
+  "payload": {
+    "currentUrl": "",
+    "clientId": "<client identifier>",
+  }
+}
+ 
