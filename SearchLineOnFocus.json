@@ -1,0 +1,4 @@
+{
+	"type": "SearchLineOnFocus",
+	"inputTop": "<absolute top value of input element (element.getBoundingClientRect().top)>"
+}
