@@ -1,7 +1,7 @@
 {
   "type": "OpenClientCardProductsTab",
   "payload": {
-    "currentUrl": "",
+    "currentUrl": "<anchor of current url (part after #) to return back to it, e.g. #/kpi/1>",
     "clientId": "<client identifier>",
   }
 }
