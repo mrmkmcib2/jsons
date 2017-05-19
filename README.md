@@ -33,6 +33,19 @@ clientId - идентификатор холдинга или идентифик
 	}	
 }
 ```
+* Открыть карточку клиента с вкладкой продукты 
+```
+Вызывается при нажатии на любую строку с типом продукта на дашборде Комплексность.
+([OpenClientCardProductsTab](https://github.com/mrmkmcib2/jsons/blob/master/OpenClientCardProductsTab.json))
+
+{
+  type: 'OpenClientCardProductsTab',
+  payload: {
+    currentUrl: '<anchor of current url (part after #) to return back to it, e.g. #/kpi/1>',
+    clientId: '<client identifier>',
+  }
+}
+```
 * Показать строку поиска
 ([GlobalClientSearch](https://github.com/mrmkmcib2/jsons/blob/master/GlobalClientSearch.json))
 
@@ -40,5 +53,25 @@ clientId - идентификатор холдинга или идентифик
 ```
 {
 	type: 'GlobalClientSearch'
+}
+```
+* Инпут поиска поймал фокус
+
+
+Вызывается, когда инпут поиска на дашбордах холдинга или юр.лица по некредитным доходам ловит фокус.
+inputTop - абсолютное значение top элемента (расстояние от верха страницы до верха инпута в пикселях)
+```
+{
+	type: 'SearchLineOnFocus',
+	inputTop: '<absolute top value of input element (element.getBoundingClientRect().top)>'
+}
+```
+* Инпут поиска потерял фокус
+
+
+Вызывается, когда инпут поиска на дашбордах холдинга или юр.лица по некредитным доходам теряет фокус.
+```
+{
+	type: 'SearchLineOnBlur',
 }
 ```
